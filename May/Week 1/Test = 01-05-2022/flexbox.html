@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flexbox</title>
+    <style>
+         .container{
+            display: flex;
+            padding: 50px;
+         }
+        .box div{
+            background-color: rgb(254, 44, 44);
+           flex-basis: 90%;
+           justify-content: center;
+        }
+        .container div{
+            background-color: green;
+            border: 6px solid rgb(254, 44, 44);
+            flex-basis: 20%; 
+        }
+        .c1{
+            margin-top: 0px;
+        }
+        .c3{
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+    <div class="container">
+        <div>
+            <h6 class="c1">Child 1</h6>
+        </div>
+
+        <div>
+            <h6 class="c2">Child 2</h6>
+        </div>
+
+        <div>
+            <h6 class="c3">Child 3</h6>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
